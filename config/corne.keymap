@@ -172,10 +172,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J    &kp L        &kp U              &kp Y            &kp APOS         &kp BACKSPACE
-&kp LSHFT  &hm A LEFT_GUI  &hm R LEFT_ALT  &hm S LEFT_SHIFT  &hm T LEFT_CONTROL  &kp G        &kp M    &hm N RCTRL  &hm E RIGHT_SHIFT  &hm I RIGHT_ALT  &hm O RIGHT_GUI  &kp SEMICOLON
-&kp LCTRL  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K    &kp H        &kp COMMA          &kp DOT          &kp FSLH         &kp RSHFT
-                                           &kp LGUI          &mo 1               &kp SPACE    &kp RET  &lt 2 TAB    &kp RIGHT_ALT
+&kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J    &kp L                &kp U              &kp Y            &kp APOS         &kp BACKSPACE
+&kp LSHFT  &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_SHIFT S  &hm LEFT_CONTROL T  &kp G        &kp M    &hm RIGHT_CONTROL N  &hm RIGHT_SHIFT E  &hm RIGHT_ALT I  &hm RIGHT_GUI O  &kp SEMICOLON
+&kp LCTRL  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K    &kp H                &kp COMMA          &kp DOT          &kp FSLH         &kp RSHFT
+                                           &kp LGUI          &mo 1               &kp SPACE    &kp RET  &lt 2 TAB            &kp RIGHT_ALT
             >;
         };
 
